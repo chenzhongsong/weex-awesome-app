@@ -62,17 +62,18 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
-/* 0 */
+/* 0 */,
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _HelloWorld = __webpack_require__(1);
+var _HelloWorld = __webpack_require__(2);
 
 var _HelloWorld2 = _interopRequireDefault(_HelloWorld);
 
@@ -82,14 +83,14 @@ _HelloWorld2.default.el = '#root';
 new Vue(_HelloWorld2.default);
 
 /***/ }),
-/* 1 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __vue_exports__, __vue_options__
 var __vue_styles__ = []
 
 /* template */
-var __vue_template__ = __webpack_require__(2)
+var __vue_template__ = __webpack_require__(3)
 __vue_options__ = __vue_exports__ = __vue_exports__ || {}
 if (
   typeof __vue_exports__.default === "object" ||
@@ -101,7 +102,7 @@ __vue_options__ = __vue_exports__ = __vue_exports__.default
 if (typeof __vue_options__ === "function") {
   __vue_options__ = __vue_options__.options
 }
-__vue_options__.__file = "/Users/chenzhongsong/Desktop/Devops/weex/awesome-app/src/components/HelloWorld.vue"
+__vue_options__.__file = "/Users/asp/Desktop/Weex-Awesome-App/weex-awesome-app/src/components/HelloWorld.vue"
 __vue_options__.render = __vue_template__.render
 __vue_options__.staticRenderFns = __vue_template__.staticRenderFns
 __vue_options__.style = __vue_options__.style || {}
@@ -118,7 +119,7 @@ module.exports = __vue_exports__
 
 
 /***/ }),
-/* 2 */
+/* 3 */
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;

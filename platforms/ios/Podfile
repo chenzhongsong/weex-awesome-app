@@ -1,13 +1,27 @@
 # source 'git@github.com/CocoaPods/Specs.git'
 source 'https://cdn.cocoapods.org/'
-platform :ios, '8.0'
+platform :ios, '9.0'
 #inhibit_all_warnings!
 
+
+source 'git@gitlab-ce.emas-poc.com:EMAS-iOS/emas-specs-thirdpart.git'
+source 'git@gitlab-ce.emas-poc.com:EMAS-iOS/emas-specs.git'
+# WeexComponents
+source 'git@gitlab-ce.emas-poc.com:EMAS-Weex-iOS/weex-common.git'
+source 'git@gitlab-ce.emas-poc.com:EMAS-Weex-iOS/native-common.git'
+# WeexAceChart
+source 'git@gitlab-ce.emas-poc.com:EMAS-Weex-iOS/weex-chart.git'
+source 'git@gitlab-ce.emas-poc.com:EMAS-Weex-iOS/native-chart.git'
+
+
+
 def common
-	pod 'WeexSDK'
+    pod 'WeexSDK', '0.26'#'0.28.0.5-EMAS'
     pod 'WeexPluginLoader'
     pod 'SDWebImage', '3.7.5'
     pod 'SocketRocket', '0.4.2'
+    #weex商业图表
+    pod 'WeexAceChart'
 end
 
 target 'WeexDemo' do

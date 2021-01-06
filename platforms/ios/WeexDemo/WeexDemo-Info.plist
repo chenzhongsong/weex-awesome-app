@@ -29,6 +29,8 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string></string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -48,11 +50,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSCameraUsageDescription</key>
-	<string></string>
-  <key>WXEntryBundleURL</key>
-  <string>bundlejs/index.js</string>
-  <key>WXSocketConnectionURL</key>
-  <string>ws://30.157.170.97:9090</string>
+	<key>WXEntryBundleURL</key>
+	<string>bundlejs/index.js</string>
+	<key>WXSocketConnectionURL</key>
+	<string>ws://30.43.104.96:9090</string>
 </dict>
 </plist>
